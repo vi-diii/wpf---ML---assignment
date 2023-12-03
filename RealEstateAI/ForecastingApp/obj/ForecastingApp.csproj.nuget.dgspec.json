@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Zoom\\RealEstateAI\\ForecastingApp\\ForecastingApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Zoom\\RealEstateAI\\ForecastingApp\\ForecastingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zoom\\RealEstateAI\\ForecastingApp\\ForecastingApp.csproj",
+        "projectName": "ForecastingApp",
+        "projectPath": "D:\\Zoom\\RealEstateAI\\ForecastingApp\\ForecastingApp.csproj",
+        "packagesPath": "C:\\Users\\GP2023\\.nuget\\packages\\",
+        "outputPath": "D:\\Zoom\\RealEstateAI\\ForecastingApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GP2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Zoom\\RealEstateAI\\ForecastingModel\\ForecastingModel.csproj": {
+                "projectPath": "D:\\Zoom\\RealEstateAI\\ForecastingModel\\ForecastingModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zoom\\RealEstateAI\\ForecastingModel\\ForecastingModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zoom\\RealEstateAI\\ForecastingModel\\ForecastingModel.csproj",
+        "projectName": "ForecastingModel",
+        "projectPath": "D:\\Zoom\\RealEstateAI\\ForecastingModel\\ForecastingModel.csproj",
+        "packagesPath": "C:\\Users\\GP2023\\.nuget\\packages\\",
+        "outputPath": "D:\\Zoom\\RealEstateAI\\ForecastingModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GP2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.ML.Mkl.Components": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2045.28, )"
+            },
+            "XPlot.Plotly": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "XPlot.Plotly.Interactive": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

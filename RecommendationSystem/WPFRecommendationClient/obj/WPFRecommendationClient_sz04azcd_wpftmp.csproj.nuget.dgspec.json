@@ -1,0 +1,203 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Zoom\\RecommendationSystem\\WPFRecommendationClient\\WPFRecommendationClient.csproj": {}
+  },
+  "projects": {
+    "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\MovieDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\MovieDataAccess.csproj",
+        "projectName": "MovieDataAccess",
+        "projectPath": "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\MovieDataAccess.csproj",
+        "packagesPath": "C:\\Users\\GP2023\\.nuget\\packages\\",
+        "outputPath": "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GP2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj": {
+                "projectPath": "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj",
+        "projectName": "MovieModel",
+        "projectPath": "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj",
+        "packagesPath": "C:\\Users\\GP2023\\.nuget\\packages\\",
+        "outputPath": "D:\\Zoom\\RecommendationSystem\\MovieModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GP2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Zoom\\RecommendationSystem\\WPFRecommendationClient\\WPFRecommendationClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Zoom\\RecommendationSystem\\WPFRecommendationClient\\WPFRecommendationClient.csproj",
+        "projectName": "WPFRecommendationClient",
+        "projectPath": "D:\\Zoom\\RecommendationSystem\\WPFRecommendationClient\\WPFRecommendationClient.csproj",
+        "packagesPath": "C:\\Users\\GP2023\\.nuget\\packages\\",
+        "outputPath": "D:\\Zoom\\RecommendationSystem\\WPFRecommendationClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GP2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\MovieDataAccess.csproj": {
+                "projectPath": "D:\\Zoom\\RecommendationSystem\\MovieDataAccess\\MovieDataAccess.csproj"
+              },
+              "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj": {
+                "projectPath": "D:\\Zoom\\RecommendationSystem\\MovieModel\\MovieModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.ML.Recommender": {
+              "target": "Package",
+              "version": "[0.20.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

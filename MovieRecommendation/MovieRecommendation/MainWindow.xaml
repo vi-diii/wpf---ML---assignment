@@ -1,0 +1,59 @@
+﻿<Window x:Class="MovieRecommendation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieRecommendation"
+        mc:Ignorable="d"
+        Title="ZyZy - Movie Recommendation demo" Height="650" Width="800">
+    <StackPanel>
+        <Grid Height="638" RenderTransformOrigin="0.965,0.483">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="352*"/>
+                <ColumnDefinition Width="61*"/>
+                <ColumnDefinition Width="387*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="step1" Content="Step 1: Create MLContext" Margin="10,24,144,594" Click="step1_Click" />
+            <Button x:Name="step2" Content="Step 2: Read the training data" Margin="10,95,144,523" Click="step2_Click" />
+            <Button x:Name="step3" Content="Step 3: Transform Data" Margin="10,138,144,480" Click="step3_Click" />
+            <Button x:Name="step4" Content="Step 4: Create pipeline" Margin="10,176,144,442" Click="step4_Click" />
+            <Button x:Name="step5" Content="Step 5: Train the model" Margin="10,211,144,407" Click="step5_Click" />
+            <Button x:Name="step6" Content="Step 6: Evaluate Model" Margin="10,246,144,372" Click="step6_Click" />
+            <Button x:Name="step7" Content="Step 7: Test Single Prediction" Margin="10,379,144,239" Click="step7_Click" />
+            <Button x:Name="step8" Content="Step 8: Consume" Margin="40,529,194,89" />
+            <Button  x:Name="step81" Content="Step 8.1: Save Model" Margin="190,578,44,40" />
+            <Button x:Name="step82" Content="Step 8.2: Load Model" RenderTransformOrigin="0.752,0.851" Margin="8,578,237,40" Grid.Column="2" />
+            <Button x:Name="btnPrediction" Content="Prediction for all user" Foreground="OrangeRed" Margin="221,578,46,40" Grid.Column="2" />
+            <TextBox Text="Training Rate:" Margin="20,58,253,560"/>
+            <TextBox   x:Name="txtTrain" Margin="125,58,194,560"/>
+            <Label Content="%" Margin="165,56,157,548"/>
+            <Label Content="Loss Function:" Margin="40,284,214,327"/>
+            <Label Content="Mean Absolute Error (MAE):" Margin="40,312,147,299"/>
+            <Label Content="Mean Squared Error (MSE):" Margin="40,340,147,271"/>
+            <Label Content="Root Mean Squared Error (RMSE):" Margin="12,280,175,333" Grid.Column="2"/>
+            <Label Content="RSquared:" Margin="20,328,267,282" Grid.Column="2"/>
+            <TextBox  x:Name="txtlossSquare" Margin="216,287,8,329"/>
+            <TextBox  x:Name="txtMAE" Margin="216,320,8,296"/>
+            <TextBox  x:Name="txtMSE" Margin="216,347,8,269"/>
+            <TextBox  x:Name="txtRMSE" Margin="211,276,46,340" Grid.Column="2"/>
+            <TextBox  x:Name="txtRsquare" Margin="211,332,46,284" Grid.Column="2"/>
+            <Label  x:Name="lblStep1" Margin="298,24,202,591" Grid.ColumnSpan="3"/>
+            <Label  x:Name="lblStep2" Margin="298,95,202,520" Grid.ColumnSpan="3"/>
+            <Label  x:Name="lblStep3" Margin="298,138,202,477" Grid.ColumnSpan="3"/>
+            <Label  x:Name="lblStep4" Margin="298,176,202,439" Grid.ColumnSpan="3"/>
+            <Label  x:Name="lblStep5" Margin="298,211,202,404" Grid.ColumnSpan="3"/>
+            <Label Content="UserID:" Margin="62,421,239,185" />
+            <Label Content="MovieID:" Margin="268,419,26,188" />
+            <Label Content="Result:" Margin="62,464,239,143" />
+
+            <TextBox x:Name="txtUserid" Margin="135,426,169,190"/>
+            <TextBox x:Name="txtmovieID" Margin="331,419,55,197" RenderTransformOrigin="-0.148,0.475" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="txtResult"  TextWrapping="Wrap" Margin="135,469,165,124" Grid.ColumnSpan="3"/>
+            <RichTextBox x:Name ="txtRichResult"    Margin="135,469,165,124" Grid.ColumnSpan="3" />
+            <Label x:Name="lblTest" Height="24" Grid.Column="1" Margin="36,422,10,192" Grid.ColumnSpan="2"/>
+
+        </Grid>
+    </StackPanel>
+
+</Window>

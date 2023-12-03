@@ -1,0 +1,12 @@
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\bin\Debug\net6.0\SalesDataModel.deps.json
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\bin\Debug\net6.0\SalesDataModel.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\bin\Debug\net6.0\SalesDataModel.pdb
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.csproj.AssemblyReference.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.AssemblyInfoInputs.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.AssemblyInfo.cs
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.csproj.CoreCompileInputs.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\refint\SalesDataModel.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\SalesDataModel.pdb
+D:\Zoom\ProductRecommendationPurchase\SalesDataModel\obj\Debug\net6.0\ref\SalesDataModel.dll

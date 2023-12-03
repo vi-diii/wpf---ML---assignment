@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace MovieDataAccess
+{
+    public class Connector
+    {
+        public string ConnectionString { get; set; }
+        public SqlConnection Connection { get; set; }
+        public Connector()
+        {
+            ConnectionString = "server=DESKTOP-B2E1TM7;database=MovieData;uid=sa;pwd=123456";
+            Connection = new SqlConnection(ConnectionString);
+        }
+        public Connector(string connection)
+        {
+            ConnectionString = connection;
+            Connection = new SqlConnection(ConnectionString);
+        }
+        public Connector(string server, string database, string uid, string pwd)
+        {
+            ConnectionString = "server=" + server + ";database=" + database + ";uid=" + uid +";pwd="+ pwd ;
+            Connection = new SqlConnection(ConnectionString);
+        }
+        public void open()
+        {
+            if(Connection == null) { Connection = new SqlConnection(ConnectionString); }
+            if(Connection.State == ConnectionState.Closed) { Connection.Open(); }
+
+        }
+        public void close() { if(Connection != null && Connection.State == ConnectionState.Open) { Connection.Close(); } }
+        public SqlDataReader Query(string query)
+        {
+              SqlCommand cmd = new SqlCommand(query, Connection);
+              SqlDataReader r = cmd.ExecuteReader();
+            return r;
+
+        }
+        public SqlDataReader Query(string query, SqlParameter[] parameters)
+        {
+             SqlCommand cmd = new SqlCommand(query, Connection);
+            cmd.Parameters.AddRange(parameters);
+            SqlDataReader reader = cmd.ExecuteReader();
+            return reader;
+        }
+    }
+   
+}

@@ -1,0 +1,11 @@
+D:\Zoom\RecommendationSystem\MovieModel\bin\Debug\net6.0\MovieModel.deps.json
+D:\Zoom\RecommendationSystem\MovieModel\bin\Debug\net6.0\MovieModel.dll
+D:\Zoom\RecommendationSystem\MovieModel\bin\Debug\net6.0\MovieModel.pdb
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.AssemblyInfoInputs.cache
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.AssemblyInfo.cs
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.csproj.CoreCompileInputs.cache
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.dll
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\refint\MovieModel.dll
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\MovieModel.pdb
+D:\Zoom\RecommendationSystem\MovieModel\obj\Debug\net6.0\ref\MovieModel.dll

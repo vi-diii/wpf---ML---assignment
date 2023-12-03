@@ -1,0 +1,15 @@
+D:\Zoom\RecommendationSystem\MovieDataAccess\bin\Debug\net6.0\MovieDataAccess.deps.json
+D:\Zoom\RecommendationSystem\MovieDataAccess\bin\Debug\net6.0\MovieDataAccess.dll
+D:\Zoom\RecommendationSystem\MovieDataAccess\bin\Debug\net6.0\MovieDataAccess.pdb
+D:\Zoom\RecommendationSystem\MovieDataAccess\bin\Debug\net6.0\MovieModel.dll
+D:\Zoom\RecommendationSystem\MovieDataAccess\bin\Debug\net6.0\MovieModel.pdb
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.csproj.AssemblyReference.cache
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.AssemblyInfoInputs.cache
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.AssemblyInfo.cs
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.csproj.CoreCompileInputs.cache
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.csproj.CopyComplete
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.dll
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\refint\MovieDataAccess.dll
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\MovieDataAccess.pdb
+D:\Zoom\RecommendationSystem\MovieDataAccess\obj\Debug\net6.0\ref\MovieDataAccess.dll

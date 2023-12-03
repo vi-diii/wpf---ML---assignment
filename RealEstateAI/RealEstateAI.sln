@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastingModel", "ForecastingModel\ForecastingModel.csproj", "{793A964F-F488-49B9-A018-90C18687F96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastingApp", "ForecastingApp\ForecastingApp.csproj", "{EFA68AB1-1FD1-4F6B-A2CB-8448778EC22C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793A964F-F488-49B9-A018-90C18687F96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793A964F-F488-49B9-A018-90C18687F96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793A964F-F488-49B9-A018-90C18687F96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793A964F-F488-49B9-A018-90C18687F96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA68AB1-1FD1-4F6B-A2CB-8448778EC22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA68AB1-1FD1-4F6B-A2CB-8448778EC22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA68AB1-1FD1-4F6B-A2CB-8448778EC22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA68AB1-1FD1-4F6B-A2CB-8448778EC22C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EDCEAE2-37D3-40CE-9F79-FEF2CEF542B6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\bin\Debug\net6.0\SalesDataAccess.deps.json
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\bin\Debug\net6.0\SalesDataAccess.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\bin\Debug\net6.0\SalesDataAccess.pdb
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\bin\Debug\net6.0\SalesDataModel.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\bin\Debug\net6.0\SalesDataModel.pdb
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.csproj.AssemblyReference.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.AssemblyInfoInputs.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.AssemblyInfo.cs
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.csproj.CoreCompileInputs.cache
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.csproj.CopyComplete
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\refint\SalesDataAccess.dll
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\SalesDataAccess.pdb
+D:\Zoom\ProductRecommendationPurchase\SalesDataAccess\obj\Debug\net6.0\ref\SalesDataAccess.dll

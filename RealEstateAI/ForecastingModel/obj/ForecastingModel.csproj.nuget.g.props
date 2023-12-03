@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\GP2023\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\GP2023\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)xplot.plotly.interactive\4.0.7\contentFiles\any\any\Modules\XPlot.Plotly.Interactive\XPlot.Plotly.Interactive.psd1" Condition="Exists('$(NuGetPackageRoot)xplot.plotly.interactive\4.0.7\contentFiles\any\any\Modules\XPlot.Plotly.Interactive\XPlot.Plotly.Interactive.psd1')">
+      <NuGetPackageId>XPlot.Plotly.Interactive</NuGetPackageId>
+      <NuGetPackageVersion>4.0.7</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Modules\XPlot.Plotly.Interactive\XPlot.Plotly.Interactive.psd1</TargetPath>
+      <DestinationSubDirectory>Modules\XPlot.Plotly.Interactive\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Modules\XPlot.Plotly.Interactive\XPlot.Plotly.Interactive.psd1</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.mkl.components\2.0.1\build\netstandard2.0\Microsoft.ML.Mkl.Components.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.mkl.components\2.0.1\build\netstandard2.0\Microsoft.ML.Mkl.Components.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\GP2023\.nuget\packages\microsoft.web.webview2\1.0.2045.28</PkgMicrosoft_Web_WebView2>
+  </PropertyGroup>
+</Project>
